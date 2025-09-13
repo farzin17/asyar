@@ -1,0 +1,269 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?93qe0m');
+  src:  url('fonts/icomoon.eot?93qe0m#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?93qe0m') format('truetype'),
+    url('fonts/icomoon.woff?93qe0m') format('woff'),
+    url('fonts/icomoon.svg?93qe0m#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-hammer2:before {
+  content: "\e9a8";
+}
+
+body{
+    margin: 0;
+    font-family: 'Vazirmatn';
+}
+@font-face {
+  font-family: 'Vazirmatn';
+  src: url('./font/fonts/webfonts/Vazirmatn[wght].woff2') format('woff2'),
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.header-top{
+    background-color: #ccb68d;
+    display: flex;
+}
+.icon-size{
+    width: 20px;
+    height: 20px;
+}
+.header-top-right-p h5{
+    margin: 0 10px 0 0;
+}
+.header-top-right{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    height: 30px;
+}
+.header-top-right-p{
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+}
+.header-top-left{
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 10%;
+    height: 30px;
+}
+.header-top-left-img img{
+    width: 20px;
+    height: 20px;
+}
+.header-center{
+    display: flex;
+    width: 100%;
+    background: #fff;
+}
+.header-center-number,.header-center-button{
+    width: 20%;
+    text-align: center;
+}
+.header-center-logo{
+    width: 60%;
+    text-align: center;
+}
+.header-center-number{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-center-button button{
+    background-color: #45414d;
+    margin: 50px 0;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, .1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.header-center-button a button:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 6px 10px rgba(0,0,0,.15);
+    background-color: #ccb68d
+}
+.header-center-logo a img{
+    margin: 4px 40px 0 0;
+}
+.header-bottom{
+    background-color: #ccb68d;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header-bottom a{
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px 40px;
+}
+.icon{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.menu-img img{
+    width: 100%;
+    height: 520px;
+}
+
+/* click-menu */
+.servis_AS_Yar {
+    --backgerand-click-meno: url("./logo/pattern-background.png");
+}
+.click-menu{
+    background-image: url("./logo/pattern-background.png");
+    text-align: center;
+    margin: -4px 0 0 0;
+    height: 584px;
+}
+.click-child-top button,.click-child-bottom button{
+    border-radius: 100%;
+    width: 120px;
+    padding: 40px;
+    border: none;
+    background-color: #45414d;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+}
+.click-child-top-top{
+    transform: translate(70px, 40px);
+}
+.click-child-top-center{
+    transform: translate(5px, -32px);
+}
+.click-child-top-bottom{
+    transform: translate(-70px, 40px);
+}
+.click-child-bottom-bottom{
+    transform: translate(-70px, -40px);
+}
+.click-child-bottom-center{
+    transform: translate(5px, 32px);
+}
+.click-child-bottom-top{
+    transform: translate(70px, -40px);
+}
+.click-child{
+    padding: 50px 0 0 0;
+}
+
+
+
+.menu-informaation{
+    display: flex;
+    margin-top: 70px;
+}
+.menu-informaation-left{
+    width: 36%;
+    margin: 0 14px 0 0;
+}
+.menu-informaation-left a{
+    color: #ccb68d;
+}
+.menu-informaation-left p{
+    color: #999;
+}
+.menu-informaation-right{
+    display: flex;
+    width: 60%;
+}
+.menu-informaation-right-img-right img,.menu-informaation-right-img-center img,.menu-informaation-right-img-left img{
+    width: 100%;
+    border-radius: 8px;
+}
+.menu-informaation-right-img-right,.menu-informaation-right-img-center{
+    margin-left: 10px;
+}
+.menu-informaation-right-p{
+    color: #999;
+}
+
+
+
+.middle-box{
+    width: 100%;
+    margin: 60px 0;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #45414d;
+    color: aliceblue;
+}
+.middle-box-child{
+    display: flex;
+    width: 26%;
+    margin: 40px auto;
+    border: 1px solid black;
+}
+.middle-box-child p{
+    color: #999;
+}
+.middle-box-child nav{
+    width: 36%;
+    text-align: center;
+    margin: auto;
+}
+.child_i{
+    font-size: 36px;
+    padding: 8px;
+    background: #ccb68d;
+}
+
+
+.menu-matn{
+    margin: 40px 0 0 0;
+}
+.menu-matn-child{
+    width: 100%;
+    height: 300px;
+    background-image: url(./logo/our_pathway.png);
+    background-position: center;
+    background-size: cover;
+}
+.menu-matn-child-Information{
+    text-align: center;
+    padding: 30px 0 0 0;
+}
+.menu-matn-child-Information nav{
+    color: #ccb68d;
+    padding: 0 0 16px 0px;
+}
+.menu-matn-child-Information p{
+     color: #999;
+}
+.menu-matn-child-p{
+    width: 70%;
+    border-top:1px solid;
+    margin: auto;
+}
